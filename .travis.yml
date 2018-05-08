@@ -1,0 +1,11 @@
+os:
+  - linux
+  - osx
+language: node_js
+node_js:
+  - "node"
+  - "lts/*"
+  - "7"
+  - "6"
+install:
+  - npm install -g react-simple-template

@@ -1,0 +1,6 @@
+{
+  "preferGlobal": true,
+  "bin": {
+    "generate": "generator.js"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ez-npm-template",
+  "version": "0.0.2",
+  "description": "easy way to create template package",
+  "preferGlobal": true,
+  "bin": {
+    "generate": "generator.js"
+  },
+  "scripts": {
+    "test": "generate package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlock1607/ez-npm-template.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "nodejs"
+  ],
+  "author": "Vladimir Zhelvis <warlock1607>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warlock1607/ez-npm-template/issues"
+  },
+  "homepage": "https://github.com/warlock1607/ez-npm-template#readme"
+}
