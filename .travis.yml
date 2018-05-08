@@ -8,4 +8,4 @@ node_js:
   - "7"
   - "6"
 install:
-  - npm install -g react-simple-template
+  - npm install -g ez-npm-template

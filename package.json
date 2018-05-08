@@ -1,6 +1,6 @@
 {
   "name": "ez-npm-template",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "easy way to create template package",
   "preferGlobal": true,
   "bin": {
