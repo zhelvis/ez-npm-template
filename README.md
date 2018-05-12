@@ -1,4 +1,6 @@
 # ez-npm-template
+[![Build Status](https://travis-ci.org/warlock1607/ez-npm-template.svg?branch=master)](https://travis-ci.org/warlock1607/ez-npm-template)
+
 easy way to create npm package for templates
 
 ## Instalation
@@ -14,7 +16,7 @@ easy way to create npm package for templates
        generate package    
 
     
-**note: don't forget delete folders like "node_modules" etc.**
+**note: don't forget delete folders like "node_modules", ".git" etc.**
  - go to package folder
 
         cd package

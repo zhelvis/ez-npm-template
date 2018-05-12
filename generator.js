@@ -60,6 +60,7 @@ createFolder(dist, process.argv[2])
         startFileFlow(src,dist);
     })
     .then(() => {
+        fs.mkdirSync(user_dist);
         startFileFlow(user_src, user_dist);
     })
     .catch( err => {
