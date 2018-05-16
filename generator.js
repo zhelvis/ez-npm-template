@@ -29,7 +29,7 @@ function startFileFlow(src, dist) {
             fs.writeFileSync(path.join(dist, item), buffer);
         }
         if (stats.isDirectory()) {
-            if( item !== process.argv[2]){
+            if( item !== process.argv[2] || item !==".git" || item !=="node_modules"){
                 console.log(`Generate folder ${path.join(dist, item)}`);
                 fs.mkdirSync(path.join(dist, item));
                 startFileFlow(file,path.join(dist, item))
